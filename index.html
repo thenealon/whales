@@ -87,13 +87,33 @@
                     <li><a href="#project-description">Description</a></li>
                     <li><a href="#donation-notice">Donation Notice</a></li>
                     <li><a href="#course-materials">Course Materials</a></li>
-                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#multimedia">Visual Media</a></li>
                     <li><a href="#audio-files">Audio</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <div class="gallery">
+            <div class="thumbnail">
+                <img src="path/to/image1.jpg" alt="Image 1" onclick="openModal(this);">
+            </div>
+            <div class="thumbnail">
+                <img src="path/to/image2.jpg" alt="Image 2" onclick="openModal(this);">
+            </div>
+            <!-- More thumbnails -->
+        </div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="enlargedImage">
+    </div>
+    
     <div class="container">
         <!-- Previous sections -->
         <!-- ... -->
